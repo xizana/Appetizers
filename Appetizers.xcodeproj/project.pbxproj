@@ -67,12 +67,11 @@
 		A27DACC72BD24AED0034E852 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				A27DACED2BD28D8D0034E852 /* App */,
 				A27DACEA2BD2873C0034E852 /* NetworkLayer */,
 				A27DACE32BD2736D0034E852 /* Model */,
 				A27DACE02BD253220034E852 /* Utilities */,
 				A27DACD62BD24C750034E852 /* Modules */,
-				A27DACC82BD24AED0034E852 /* AppetizersApp.swift */,
-				A27DACCA2BD24AED0034E852 /* AppetizerTabView.swift */,
 				A27DACCC2BD24AED0034E852 /* Assets.xcassets */,
 				A27DACCE2BD24AEE0034E852 /* Preview Content */,
 			);
@@ -145,6 +144,15 @@
 				A27DACEB2BD287940034E852 /* NetworkManager.swift */,
 			);
 			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		A27DACED2BD28D8D0034E852 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A27DACCA2BD24AED0034E852 /* AppetizerTabView.swift */,
+				A27DACC82BD24AED0034E852 /* AppetizersApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
