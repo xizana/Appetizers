@@ -8,7 +8,7 @@
 import Foundation
 
 
-enum ApetizersError: Error {
+enum AppetizersError: Error {
     case invalidUrl
     case invalidResponse
     case invalidData

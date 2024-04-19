@@ -15,7 +15,7 @@ final class NetworkManager {
     
     static let baseURL = "https://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/"
 
-    private let apetizerURL = baseURL + "apetizers"
+    private let apetizerURL = baseURL + "appetizers"
     
     // MARK: - init
 
@@ -25,14 +25,14 @@ final class NetworkManager {
     
     // MARK: - Functions
     
-    func getAppetizers(completion: @escaping (Result<[Apetizer], ApetizersError>) -> Void ) {
+    func getAppetizers(completion: @escaping (Result<[Appetizer], AppetizersError>) -> Void ) {
         guard let url = URL(string: apetizerURL) else {
             completion(.failure(.invalidUrl))
             return
         }
         
         let tast = URLSession.shared.dataTask(with: url) { data, response, error in
-            guard let error = error else {
+            if let _ = error {
                 completion(.failure(.unableToComplete))
                 return
             }
@@ -48,7 +48,7 @@ final class NetworkManager {
             
             do {
                 let decoder = JSONDecoder()
-                let decodedResponse = try decoder.decode(ApetizerResponse.self, from: data)
+                let decodedResponse = try decoder.decode(AppetizerResponse.self, from: data)
                 completion(.success(decodedResponse.request))
             } catch {
                 completion(.failure(.decodeError))
