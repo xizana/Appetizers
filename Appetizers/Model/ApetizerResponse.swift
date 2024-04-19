@@ -12,7 +12,7 @@ struct ApetizerResponse: Codable {
     let request: [Apetizer]
 }
 
-struct Apetizer: Codable {
+struct Apetizer: Codable, Identifiable {
     let id: Int
     let imageURL: String
     let description: String
@@ -25,7 +25,7 @@ struct Apetizer: Codable {
 
 struct MockData {
     
-    static let apetizerTemp = Apetizer(id: 4, imageURL: "sdadad", description: "asdadadadadas", calories: 33, price: 22, carbs: 12, name: "asdadadada")
+    static let apetizerTemp = Apetizer(id: 4, imageURL: "sdadad", description: "asdadadadadas", calories: 33, price: 22.00, carbs: 12, name: "asdadadada")
     
     static let apetizers = [apetizerTemp, apetizerTemp, apetizerTemp, apetizerTemp]
 }

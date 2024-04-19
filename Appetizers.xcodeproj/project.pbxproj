@@ -16,6 +16,7 @@
 		A27DACDF2BD24CF90034E852 /* AppetizersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */; };
 		A27DACE22BD2537D0034E852 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACE12BD2537D0034E852 /* Colors.swift */; };
 		A27DACE52BD273900034E852 /* ApetizerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACE42BD273900034E852 /* ApetizerResponse.swift */; };
+		A27DACE72BD277E90034E852 /* ApetizerListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListView.swift; sourceTree = "<group>"; };
 		A27DACE12BD2537D0034E852 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A27DACE42BD273900034E852 /* ApetizerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerResponse.swift; sourceTree = "<group>"; };
+		A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerListCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */,
+				A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27DACE72BD277E90034E852 /* ApetizerListCellView.swift in Sources */,
 				A27DACDD2BD24CEB0034E852 /* AccountView.swift in Sources */,
 				A27DACE22BD2537D0034E852 /* Colors.swift in Sources */,
 				A27DACDB2BD24CD30034E852 /* OrderView.swift in Sources */,

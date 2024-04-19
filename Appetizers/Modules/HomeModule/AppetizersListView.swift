@@ -10,7 +10,9 @@ import SwiftUI
 struct AppetizersListView: View {
     var body: some View {
         NavigationView {
-            Text("home view")
+            List(MockData.apetizers) { apetizer in
+                ApetizerListCellView(title: apetizer.name, price: Int(apetizer.price))
+            }
                 .navigationTitle("Home")
         }
     }
