@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ApetizerListCellView: View {
     let title: String
-    let price: Int
+    let price: Double
     
     var body: some View {
         HStack {

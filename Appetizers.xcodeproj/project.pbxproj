@@ -17,6 +17,8 @@
 		A27DACE22BD2537D0034E852 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACE12BD2537D0034E852 /* Colors.swift */; };
 		A27DACE52BD273900034E852 /* ApetizerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACE42BD273900034E852 /* ApetizerResponse.swift */; };
 		A27DACE72BD277E90034E852 /* ApetizerListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */; };
+		A27DACE92BD2835D0034E852 /* Errors .swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACE82BD2835D0034E852 /* Errors .swift */; };
+		A27DACEC2BD287940034E852 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACEB2BD287940034E852 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A27DACE12BD2537D0034E852 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A27DACE42BD273900034E852 /* ApetizerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerResponse.swift; sourceTree = "<group>"; };
 		A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerListCellView.swift; sourceTree = "<group>"; };
+		A27DACE82BD2835D0034E852 /* Errors .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Errors .swift"; sourceTree = "<group>"; };
+		A27DACEB2BD287940034E852 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		A27DACC72BD24AED0034E852 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				A27DACEA2BD2873C0034E852 /* NetworkLayer */,
 				A27DACE32BD2736D0034E852 /* Model */,
 				A27DACE02BD253220034E852 /* Utilities */,
 				A27DACD62BD24C750034E852 /* Modules */,
@@ -131,6 +136,15 @@
 				A27DACE42BD273900034E852 /* ApetizerResponse.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A27DACEA2BD2873C0034E852 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A27DACE82BD2835D0034E852 /* Errors .swift */,
+				A27DACEB2BD287940034E852 /* NetworkManager.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A27DACE72BD277E90034E852 /* ApetizerListCellView.swift in Sources */,
+				A27DACE92BD2835D0034E852 /* Errors .swift in Sources */,
+				A27DACEC2BD287940034E852 /* NetworkManager.swift in Sources */,
 				A27DACDD2BD24CEB0034E852 /* AccountView.swift in Sources */,
 				A27DACE22BD2537D0034E852 /* Colors.swift in Sources */,
 				A27DACDB2BD24CD30034E852 /* OrderView.swift in Sources */,
