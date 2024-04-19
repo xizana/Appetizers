@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct AppetizersListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("home view")
     }
 }
 
 #Preview {
-    HomeView()
+    AppetizersListView()
 }

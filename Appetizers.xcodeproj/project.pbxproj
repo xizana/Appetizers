@@ -13,7 +13,7 @@
 		A27DACD02BD24AEE0034E852 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27DACCF2BD24AEE0034E852 /* Preview Assets.xcassets */; };
 		A27DACDB2BD24CD30034E852 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACDA2BD24CD30034E852 /* OrderView.swift */; };
 		A27DACDD2BD24CEB0034E852 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACDC2BD24CEB0034E852 /* AccountView.swift */; };
-		A27DACDF2BD24CF90034E852 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACDE2BD24CF90034E852 /* HomeView.swift */; };
+		A27DACDF2BD24CF90034E852 /* AppetizersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		A27DACCF2BD24AEE0034E852 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A27DACDA2BD24CD30034E852 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		A27DACDC2BD24CEB0034E852 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
-		A27DACDE2BD24CF90034E852 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		A27DACD72BD24C850034E852 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
-				A27DACDE2BD24CF90034E852 /* HomeView.swift */,
+				A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -181,7 +181,7 @@
 				A27DACDD2BD24CEB0034E852 /* AccountView.swift in Sources */,
 				A27DACDB2BD24CD30034E852 /* OrderView.swift in Sources */,
 				A27DACCB2BD24AED0034E852 /* AppetizerTabView.swift in Sources */,
-				A27DACDF2BD24CF90034E852 /* HomeView.swift in Sources */,
+				A27DACDF2BD24CF90034E852 /* AppetizersListView.swift in Sources */,
 				A27DACC92BD24AED0034E852 /* AppetizersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
