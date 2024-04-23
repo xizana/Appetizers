@@ -22,6 +22,7 @@
 		A2C627A02BD79AB200FE933D /* AppetizersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6279F2BD79AB200FE933D /* AppetizersListViewModel.swift */; };
 		A2C627A22BD79EA500FE933D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C627A12BD79EA500FE933D /* Alert.swift */; };
 		A2C627A42BD7BEAC00FE933D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C627A32BD7BEAC00FE933D /* LoadingView.swift */; };
+		A2C627A92BD7E89400FE933D /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C627A82BD7E89400FE933D /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		A2C6279F2BD79AB200FE933D /* AppetizersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListViewModel.swift; sourceTree = "<group>"; };
 		A2C627A12BD79EA500FE933D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		A2C627A32BD7BEAC00FE933D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A2C627A82BD7E89400FE933D /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		A27DACD72BD24C850034E852 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				A2C627A72BD7E87800FE933D /* RemoteImageModule */,
 				A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */,
 				A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */,
 				A2C6279F2BD79AB200FE933D /* AppetizersListViewModel.swift */,
@@ -162,6 +165,14 @@
 				A27DACC82BD24AED0034E852 /* AppetizersApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		A2C627A72BD7E87800FE933D /* RemoteImageModule */ = {
+			isa = PBXGroup;
+			children = (
+				A2C627A82BD7E89400FE933D /* RemoteImage.swift */,
+			);
+			path = RemoteImageModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 				A2C627A22BD79EA500FE933D /* Alert.swift in Sources */,
 				A27DACCB2BD24AED0034E852 /* AppetizerTabView.swift in Sources */,
 				A27DACDF2BD24CF90034E852 /* AppetizersListView.swift in Sources */,
+				A2C627A92BD7E89400FE933D /* RemoteImage.swift in Sources */,
 				A27DACE52BD273900034E852 /* AppetizerResponse.swift in Sources */,
 				A2C627A02BD79AB200FE933D /* AppetizersListViewModel.swift in Sources */,
 				A2C627A42BD7BEAC00FE933D /* LoadingView.swift in Sources */,
