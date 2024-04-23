@@ -19,6 +19,7 @@
 		A27DACE72BD277E90034E852 /* ApetizerListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */; };
 		A27DACE92BD2835D0034E852 /* Errors .swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACE82BD2835D0034E852 /* Errors .swift */; };
 		A27DACEC2BD287940034E852 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DACEB2BD287940034E852 /* NetworkManager.swift */; };
+		A2C627A02BD79AB200FE933D /* AppetizersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6279F2BD79AB200FE933D /* AppetizersListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerListCellView.swift; sourceTree = "<group>"; };
 		A27DACE82BD2835D0034E852 /* Errors .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Errors .swift"; sourceTree = "<group>"; };
 		A27DACEB2BD287940034E852 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A2C6279F2BD79AB200FE933D /* AppetizersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */,
 				A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */,
+				A2C6279F2BD79AB200FE933D /* AppetizersListViewModel.swift */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				A27DACCB2BD24AED0034E852 /* AppetizerTabView.swift in Sources */,
 				A27DACDF2BD24CF90034E852 /* AppetizersListView.swift in Sources */,
 				A27DACE52BD273900034E852 /* AppetizerResponse.swift in Sources */,
+				A2C627A02BD79AB200FE933D /* AppetizersListViewModel.swift in Sources */,
 				A27DACC92BD24AED0034E852 /* AppetizersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
