@@ -15,7 +15,7 @@ struct AppetizersListView: View {
         ZStack {
             NavigationView {
                 List(appetizersListVM.appetizers) { appetizer in
-                    ApetizerListCellView(title: appetizer.name, price: appetizer.price)
+                    ApetizerListCellView(apetizer: appetizer)
                 }
                 .navigationTitle("Home")
             }
@@ -36,5 +36,4 @@ struct AppetizersListView: View {
 #Preview {
     AppetizersListView()
 }
-
 

@@ -23,9 +23,3 @@ struct Appetizer: Codable, Identifiable {
 }
 
 
-//struct MockData {
-//    
-//    static let appetizerTemp = Appetizer(id: 4, imageURL: "sdadad", description: "asdadadadadas", calories: 33, price: 22.00, carbs: 12, name: "asdadadada")
-//    
-//    static let appetizers = [appetizerTemp, appetizerTemp, appetizerTemp, appetizerTemp]
-//}
