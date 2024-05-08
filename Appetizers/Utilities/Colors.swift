@@ -8,5 +8,5 @@
 import SwiftUI
 
 struct Colors {
-    static let primaryColor = "primaryColor"
+    static let baseColor = "baseColor"
 }
