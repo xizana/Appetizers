@@ -16,7 +16,11 @@ struct AppetizersListView: View {
             NavigationView {
                 List(appetizersListVM.appetizers) { appetizer in
                     ApetizerListCellView(apetizer: appetizer)
+                        .onTapGesture {
+                            print("Tapped cell with id: \(appetizer.id)")
+                        }
                 }
+                
                 .navigationTitle("Home")
             }
             .onAppear {
@@ -24,7 +28,7 @@ struct AppetizersListView: View {
             }
             if appetizersListVM.isLoading {
                 LoadingView()
-            } 
+            }
         }
         .alert(item: $appetizersListVM.alertItem) { alertItem in
             Alert(title: alertItem.title, message: alertItem.message, dismissButton: alertItem.dismissButton)

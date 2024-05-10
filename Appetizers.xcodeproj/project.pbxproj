@@ -107,10 +107,8 @@
 		A27DACD72BD24C850034E852 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				A284E8FE2BEDEE7F001BC689 /* AppetizerListModule */,
 				A2C627A72BD7E87800FE933D /* RemoteImageModule */,
-				A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */,
-				A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */,
-				A2C6279F2BD79AB200FE933D /* AppetizersListViewModel.swift */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -165,6 +163,16 @@
 				A27DACC82BD24AED0034E852 /* AppetizersApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		A284E8FE2BEDEE7F001BC689 /* AppetizerListModule */ = {
+			isa = PBXGroup;
+			children = (
+				A27DACDE2BD24CF90034E852 /* AppetizersListView.swift */,
+				A27DACE62BD277E90034E852 /* ApetizerListCellView.swift */,
+				A2C6279F2BD79AB200FE933D /* AppetizersListViewModel.swift */,
+			);
+			path = AppetizerListModule;
 			sourceTree = "<group>";
 		};
 		A2C627A72BD7E87800FE933D /* RemoteImageModule */ = {
